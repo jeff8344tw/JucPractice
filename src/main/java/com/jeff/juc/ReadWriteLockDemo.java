@@ -16,7 +16,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  *      讀-寫不能共存
  *      寫-寫不能共存
  */
-public class ㄐReadWriteLockDemo {
+public class ReadWriteLockDemo {
 
     public static void main(String[] args) {
         MyCache myCache = new MyCache();
